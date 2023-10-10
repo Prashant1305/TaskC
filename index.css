@@ -35,7 +35,7 @@ select {
 select {
     background-color: transparent;
     color: var(--clr);
-    border: 1px solid #00ccff;
+    border: 2px solid var(--clr);
     ;
 }
 
