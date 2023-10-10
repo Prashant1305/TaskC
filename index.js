@@ -19,12 +19,9 @@ for (let i of arr) {
 }
 image.innerHTML = str;
 
-
-
 const ul = document.querySelector('#temp')
 ul.parentElement.hidden = true;
 ul.parentElement.id = 'viewOn'
-
 
 const imageContainer = document.getElementsByClassName('image');
 for (let i of imageContainer) {
@@ -84,3 +81,11 @@ crossBtn.addEventListener('click', () => {
     ul.parentElement.id = 'viewOn'
 })
 
+const drp = document.querySelector('#drop');
+
+const bdy = document.body;
+drp.addEventListener('change', (e) => {
+    bdy.className = e.target.value;
+    console.log(e.target.value);
+
+});
