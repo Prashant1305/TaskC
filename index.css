@@ -56,7 +56,7 @@ body {
 
 select {
     align-self: flex-end;
-    font-size: medium;
+    font-size: x-large;
     background-color: transparent;
     /* border: 2px solid var(--clr); */
     padding: 2px;
@@ -75,6 +75,7 @@ select {
 p {
     float: left;
     font-style: oblique;
+    font-size: large;
     /* border: 2px solid green; */
     margin: 0px 40px 10px 40px;
     padding: 10px;
