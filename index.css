@@ -96,6 +96,10 @@ option {
     transform: scale(1.1);
 }
 
+#paraBtn:hover {
+    transform: scale(1.1);
+}
+
 #crossbtn:hover {
     transform: scale(1.1);
 }
