@@ -42,6 +42,7 @@ select {
 body {
     background-color: var(--bclr);
     color: var(--clr);
+    min-width: 265px;
 }
 
 #question_container {
